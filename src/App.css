@@ -1,0 +1,296 @@
+.Header-logo {
+    position: relative;
+    height: 150px;
+    border-radius: 100%;
+    margin-top: 15px;
+    margin-left: 60px;
+    z-index: 2;
+}
+.Header-bar {
+    text-align: left;
+    position: relative;
+    background: none;
+    background-color: rgba(0,0,0,.4);
+    bottom: 170px;
+    padding: 40px;
+    z-index: 1;
+}
+.Header-option {
+    text-decoration: none;
+    position: relative;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 150%;
+    color: white;
+    left: 750px;
+    margin-right: 50px;
+}
+.Header-option:hover {
+    text-decoration: underline;
+}
+
+.HomePage-homescreen {
+    height: 755px;
+    width: auto;
+    margin-top: -277px;
+    background-image: url("./Images/seat.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.HomePage-screen2 {
+    height: 755px;
+    width: auto;
+    background-image: url("./Images/shrimp.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.HomePage-screen3 {
+    height: 755px;
+    width: auto;
+    background-image: url("./Images/crawfishpot.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.HomePage-screen4 {
+    height: 755px;
+    width: auto;
+    background-image: url("./Images/chicken.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.HomePage-hometitle {
+    text-align: center;
+    font-family: double;
+    font-weight: bold;
+    font-size: 80px;
+    color: gold;
+    position: relative;
+    top: 300px;
+}
+.HomePage-textbox {
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+.HomePage-title {
+    display: inline-block;
+    text-align: center;
+    font-family: double;
+    font-weight: bold;
+    font-size: 100px;
+    color: darkred;
+    background-color: white;
+    margin-top: 50px;
+    width: 25%;
+    margin: 0;
+}
+.HomePage-text {
+    display: inline-block;
+    text-align: center;
+    font-family: arial;
+    font-size: 30px;
+    color: white;
+    background-color: darkgray;
+    padding: 30px;
+    border: solid white 10px;
+    border-radius: 25px;
+    width: 30%;
+}
+.HomePage-pictureright {
+    position: relative;
+    right: 100px;
+    border: solid white 10px;
+    border-radius: 25px;
+    width: 40%;
+    float: right;
+}
+.HomePage-pictureleft {
+    position: relative;
+    left: 100px;
+    border: solid white 10px;
+    border-radius: 25px;
+    width: 40%;
+    float: left;
+}
+
+.MenuPage-heroimage {
+    margin-top: -321px;
+    background-image: url("./Images/crawfishpot.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.MenuPage-herotitle {
+    position: relative;
+    text-align: center;
+    font-family: arial;
+    font-size: 65px;
+    color: white;
+    padding: 150px;
+    top: 50px;
+    margin-bottom:0;
+}
+.MenuPage-background {
+    position: relative;
+    background-image: url("./Images/choppingboard.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.MenuPage-component {
+    text-align: center
+}
+.MenuPage-title {
+    text-align: center;
+    font-family: double;
+    font-size: 100px;
+    color: darkred;
+    padding: 50px;
+    border-radius: 25px;
+    margin:0;
+}
+.MenuPage-category {
+    display: inline-block;
+    vertical-align: top;
+    font-family: arial;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    clear: both;
+}
+.MenuPage-itemtitle {
+    font-family: double;
+    font-size: 30px;
+    color: darkred;
+}
+.MenuPage-items {
+    display: inline-block;
+    vertical-align: top;
+    font-family: arial;
+    font-size: 20px;
+    height: auto;
+    width: 250px;
+}
+.MenuPage-rightpicture {
+    object-fit: cover;
+    border-radius: 20px;
+    width: 20%;
+    margin-right: 20%;
+    float: right;
+    clear: both;
+}
+.MenuPage-leftpicture {
+    object-fit: cover;
+    border-radius: 20px;
+    width: 25%;
+    margin-left: 15%;
+    margin-top: 5%;
+    float: left;
+    clear:both;
+}
+.AboutPage-heroimage {
+    margin-top: -321px;
+    background-image: url("./Images/chicken.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.AboutPage-herotitle {
+    position: relative;
+    text-align: center;
+    font-family: arial;
+    font-size: 65px;
+    color: white;
+    padding: 150px;
+    top: 50px;
+    margin-bottom:0;
+}
+.AboutPage-background {
+    text-align: center;
+    background-image: url("./Images/seafood.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.AboutPage-title {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-family: double;
+    font-size: 100px;
+    color: darkred;
+    background-color: white;
+    border: solid darkred 10px;
+    width: 40%;
+    margin-bottom: 150px;
+}
+.AboutPage-text {
+    display: inline-block;
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    background-color: white;
+    border: solid gray 20px;
+    border-radius: 25px;
+    width: 70%;   
+}
+
+.LocationPage-heroimage {
+    margin-top: -321px;
+    background-image: url("./Images/shrimp.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.LocationPage-herotitle {
+    position: relative;
+    text-align: center;
+    font-family: arial;
+    font-size: 65px;
+    color: white;
+    padding: 150px;
+    top: 50px;
+    margin-bottom:0;
+}
+.LocationPage-background {
+    text-align: center;
+    background-image: url("./Images/seat.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.LocationPage-title{
+    display:inline-block;
+    position: relative;
+    top:50px;
+    font-family: arial;
+    color: black;
+    background-color: lightgray;
+    border: solid white 10px;
+    width: 25%;
+    margin-bottom: 100px;
+}
+.LocationPage-comingsoon{
+    display: inline-block;
+    font-family: arial;
+    color: darkred;
+    background-color: white;
+    width:40%;
+    border-radius: 25px;
+}
