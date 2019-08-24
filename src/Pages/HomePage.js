@@ -17,7 +17,7 @@ class HomePage extends Component {
                 <div className="HomePage-screen2">
                     <div className="HomePage-textbox">
                         <img className="HomePage-pictureright" src={Food1} alt="food1"/>
-                        <div className="HomePage-title"> Title 1</div>
+                        <h1 className="HomePage-title"> Title 1</h1>
                         <br/><br/>
                         <div className="HomePage-text">{text1}</div>
                     </div>
