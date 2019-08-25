@@ -6,21 +6,20 @@ const MenuMain = () => {
         <div className="MenuPage-category">
             <h3 className="MenuPage-itemtitle"> 1. Pick Your Catch:</h3>
             <div className="MenuPage-items"> 
-                <p>Blue Crab</p>
+                <p>Blue Crab(seasonal)</p>
                 <p>Snow Crab Legs</p>
                 <p>Southern King Crab Legs</p>
                 <p>Crawfish(seasonal)</p>
                 <p>Shrimp</p>
                 <p>Clams</p>
-                <p>Calamari</p>
             </div>
             <div className="MenuPage-items"> 
                 <p>Dungeness Crab</p>
                 <p>King Crab Legs</p>
                 <p>Lobster</p>
-                <p>Crawfish(frozen)</p>
                 <p>Oysters</p>
                 <p>Mussels</p>
+                <p>Calamari</p>
             </div>
         </div>
 

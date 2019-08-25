@@ -17,11 +17,11 @@ class GoogleMaps extends Component {
             isMarkerShown
             googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
             loadingElement={
-                <div style={{ height: '80%' }} />}
+                <div style={{ height: '100%' }} />}
             containerElement={
-                <div style={{ height: '600px', width: "90%", margin: "auto" }} />}
+                <div className="LocationPage-googlemapscontainer"/>}
             mapElement={
-                <div style={{ height: '80%' }} />}/>
+                <div style={{ height: '100%' }} />}/>
             </div>
         );
     };
