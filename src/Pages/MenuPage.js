@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import Wings from '../Images/lemonwing.jpg'
-import Table from '../Images/table.jpg'
-import MenuMain from './PageComponents/MenuMain'
-import MenuFried from './PageComponents/MenuFried'
-import MenuExtra from './PageComponents/MenuExtra'
+import Wings from '../Images/lemonwing.jpg';
+import Table from '../Images/table.jpg';
+import MenuMain from './PageComponents/MenuMain';
+import MenuFried from './PageComponents/MenuFried';
+import MenuExtra from './PageComponents/MenuExtra';
 
 class MenuPage extends Component {
 
