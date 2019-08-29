@@ -89,7 +89,7 @@
     color: darkred;
     background-color: white;
     margin-top: 50px;
-    width: 25%;
+    width: 420px;
     margin: 0;
 }
 .HomePage-text {
@@ -102,14 +102,14 @@
     padding: 30px;
     border: solid white 10px;
     border-radius: 25px;
-    width: 30%;
+    width: 500px;
 }
 .HomePage-pictureright {
     position: relative;
     right: 100px;
     border: solid white 10px;
     border-radius: 25px;
-    width: 40%;
+    width: 660px;
     float: right;
 }
 .HomePage-pictureleft {
@@ -117,13 +117,14 @@
     left: 100px;
     border: solid white 10px;
     border-radius: 25px;
-    width: 40%;
+    width: 660px;
+    margin: auto;
     float: left;
 }
 
 .MenuPage-heroimage {
     margin-top: -310px;
-    background-image: url("./Images/crawfishpot.jpeg");
+    background-image: url("./Images/shrimp.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -148,7 +149,8 @@
     background-attachment: fixed;
 }
 .MenuPage-component {
-    text-align: center
+    text-align: center;
+    clear: both;
 }
 .MenuPage-title {
     text-align: center;
@@ -167,7 +169,6 @@
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 1%;
-    clear: both;
 }
 .MenuPage-itemtitle {
     font-family: double;
@@ -185,7 +186,7 @@
 .MenuPage-rightpicture {
     object-fit: cover;
     border-radius: 20px;
-    width: 20%;
+    width: 300px;
     margin-right: 20%;
     float: right;
     clear: both;
@@ -193,7 +194,7 @@
 .MenuPage-leftpicture {
     object-fit: cover;
     border-radius: 20px;
-    width: 25%;
+    width: 400px;
     margin-left: 15%;
     margin-top: 5%;
     float: left;
@@ -201,7 +202,7 @@
 }
 .AboutPage-heroimage {
     margin-top: -310px;
-    background-image: url("./Images/chicken.jpg");
+    background-image: url("./Images/oceanbackground.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -308,7 +309,7 @@
 
 .LocationPage-heroimage {
     margin-top: -310px;
-    background-image: url("./Images/shrimp.jpeg");
+    background-image: url("./Images/restaurant.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

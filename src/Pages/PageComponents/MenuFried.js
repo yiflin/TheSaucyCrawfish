@@ -7,14 +7,13 @@ const MenuFried = () => {
             <div className="MenuPage-items">
                 <p>Fried Catfish Basket</p>
                 <p>Chicken Tenders Basket</p>
-                <p>Fried Calamari</p>
-                <p>Hot Wings Cajun</p>
+                <p>Fried Shrimp Basket</p>
+                
             </div>
             <div className="MenuPage-items">
-                <p>Fried Shrimp Basket</p>
-                <p>Kid's Chicken Tenders</p>
+                <p>Fried Calamari</p>
                 <p>Fried Oysters</p>
-                <p>Hot Wings Lemon Pepper</p>
+                <p>Kid's Chicken Tenders</p>
             </div>
         </div>
     )

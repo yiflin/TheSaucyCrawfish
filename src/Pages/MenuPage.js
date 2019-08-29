@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
+import Pepper from '../Images/pepperwing.jpg'
 import Wings from '../Images/lemonwing.jpg';
 import Table from '../Images/table.jpg';
 import MenuMain from './PageComponents/MenuMain';
 import MenuFried from './PageComponents/MenuFried';
+import MenuWings from './PageComponents/MenuWings';
 import MenuExtra from './PageComponents/MenuExtra';
 
 class MenuPage extends Component {
@@ -21,6 +23,9 @@ class MenuPage extends Component {
                     <div className="MenuPage-component">
                         <MenuFried/>
                         <img className="MenuPage-rightpicture" src={Wings} alt="wings"/>
+                    </div>
+                    <div className="MenuPage-component">
+                        <MenuWings/>
                     </div>
                     <div className="MenuPage-component">
                         <img className="MenuPage-leftpicture" src={Table} alt="table"/>
