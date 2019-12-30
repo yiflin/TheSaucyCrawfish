@@ -11,7 +11,7 @@ class LocationPage extends Component {
                 </div>
                 
                 <div className="LocationPage-container">
-                    <GoogleMaps/>
+                    <hr/>
                     <h1 className="LocationPage-title">Bradenton</h1>
                     <ul>
                         <li>
@@ -31,9 +31,11 @@ class LocationPage extends Component {
                             </div>
                         </li>
                     </ul>
+                    <GoogleMaps/>
                 </div>
                 <div className="LocationPage-container">
                     <br/><br/><br/>
+                    <hr/>
                     <div className="LocationPage-comingsoon">
                         <h1>Coming Soon to:</h1>
                         <ul style={{fontSize: "24px", color: "black"}}>

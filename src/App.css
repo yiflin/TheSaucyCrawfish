@@ -1,131 +1,324 @@
 .Header-logo {
     position: relative;
-    height: 150px;
-    border-radius: 100%;
-    margin-top: 15px;
-    margin-left: 60px;
-    z-index: 2;
+    text-decoration: none;
+    border: 0 none;
+    top: 2px;
+    height: 85px;
+}
+.Header-logolink {
+    text-decoration: none;
+    border: 0 none;
+    margin-left: 10%;
 }
 .Header-bar {
+    display: block;
     text-align: left;
-    position: relative;
-    background: none;
-    background-color: rgba(0,0,0,.4);
-    bottom: 170px;
-    padding: 35px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    border: 1px solid gray;
     z-index: 1;
 }
 .Header-option {
     text-decoration: none;
     position: relative;
-    font-family: arial;
-    font-weight: bold;
+    font-family: fantasy;
     font-size: 24px;
-    color: white;
-    left: 60%;
+    color: rgb(172, 0, 0);
+    left: 45%;
+    bottom: 28px;
     margin-right: 2%;
 }
 .Header-option:hover {
     text-decoration: underline;
+    color: black;
+}
+.Header-socialicon {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    left: 45%;
+    bottom: 22px;
+}
+@media (max-width: 1200px) {
+    .Header-option {
+        left:40%
+    }
+    .Header-socialicon {
+        left:40%
+    }
+}
+@media (max-width: 1000px) {
+    .Header-option {
+        left:30%
+    }
+    .Header-socialicon {
+        left:30%
+    }
+}
+@media (max-width: 810px) {
+    .Header-option {
+        font-size: 0px;
+    }
+    .Header-socialicon {
+        height: 0px;
+        width: 0px;
+    }
+}
+.Header-formshape {
+    font-size: 45px;
+    color: rgb(172, 0, 0);
+    top:0;
+}
+.Header-formbutton {
+    position: absolute;
+    background: none;
+    border: none;
+    padding: none;
+    top: 15px;
+    right: 5%;   
+    outline: none;
+}
+@media (min-width: 810px) {
+    .Header-formbutton {
+        visibility: hidden;
+    }
+}
+.Header-formclosebutton {
+    position: absolute;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+    font-family: arial;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    top: 20px;
+    right: 20px;
+    outline: none;
+}
+.Header-formclosebutton:hover {
+    height: 60px;
+    width: 60px;
+}
+.Header-form {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(219, 0, 0);
+    margin:0;
+    overflow: hidden;
+}
+.Header-formoption {
+    text-decoration: none;
+    position: relative;
+    font-family: fantasy;
+    font-size: 50px;
+    color: white;
+    top: 20%;
+}
+.Header-formsocicon{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    top: 20%;
+}
+.Header-formoption:hover {
+    color: black;
+}
+
+.Footer-background {
+    background-color: rgb(172, 0, 0);
+    border-top: 2px solid rgb(228, 194, 0);
+    text-align: center;
+    width: 100%;
+}
+.Footer-container {
+    position: relative;
+    vertical-align:top;
+    display: inline-block;
+}
+.Footer-title {
+    font: arial;
+    font-size: 25px;
+    color: rgb(228, 194, 0);
+    padding: 0px 200px 10px 100px;
+}
+.Footer-colorinfo {
+    display: inline;
+    color: rgb(228, 194, 0);
+}
+.Footer-info {
+    text-align: left;
+    font: arial;
+    font-size: 14px;
+    color: white;
+    margin: 0px 0px 0px 100px;
 }
 
 .HomePage-homescreen {
-    height: 755px;
+    height: 665px;
+    margin-top: 90px;
     width: auto;
-    margin-top: -268px;
-    background-image: url("./Images/seat.jpeg");
-    background-position: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./Images/cajun.jpeg");
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
-}
-.HomePage-screen2 {
-    height: 755px;
-    width: auto;
-    background-image: url("./Images/shrimp.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-}
-.HomePage-screen3 {
-    height: 755px;
-    width: auto;
-    background-image: url("./Images/crawfishpot.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-.HomePage-screen4 {
-    height: 755px;
-    width: auto;
-    background-image: url("./Images/chicken.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
 .HomePage-hometitle {
     text-align: center;
-    font-family: double;
-    font-weight: bold;
-    font-size: 80px;
-    color: gold;
-    position: relative;
-    top: 300px;
-}
-.HomePage-textbox {
-    position: relative;
-    top: 150px;
-    text-align: center;
-}
-.HomePage-title {
-    display: inline-block;
-    text-align: center;
-    font-family: double;
-    font-weight: bold;
+    font-family: fantasy;
     font-size: 100px;
-    color: darkred;
-    background-color: white;
-    margin-top: 50px;
-    width: 420px;
-    margin: 0;
-}
-.HomePage-text {
-    display: inline-block;
-    text-align: center;
-    font-family: arial;
-    font-size: 30px;
     color: white;
-    background-color: darkgray;
-    padding: 30px;
-    border: solid white 10px;
-    border-radius: 25px;
-    width: 500px;
-}
-.HomePage-pictureright {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     position: relative;
-    right: 100px;
-    border: solid white 10px;
-    border-radius: 25px;
-    width: 660px;
-    float: right;
+    top: 200px;
 }
-.HomePage-pictureleft {
-    position: relative;
-    left: 100px;
-    border: solid white 10px;
-    border-radius: 25px;
-    width: 660px;
+.HomePage-hometitlered {
+    display:inline-block;
+    color: red;
+}
+.HomePage-blackbackground{
+    text-align: center;
+    min-height: 665px;
+    width: auto;
+    background-color: black;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.HomePage-whitetitle{
+    display: inline-block;
+    font-family: fantasy;
+    font-size: 50px;
+    color: white;
+    padding-top: 115px;
+}
+.HomePage-whitetext{
+    font-size: 18px;
+    color: white;
+    width: 50%;
     margin: auto;
-    float: left;
+    margin-bottom: 75px;
+}
+.HomePage-redtitle{
+    display: inline-block;
+    font-family: fantasy;
+    font-size: 50px;
+    color: red;
+}
+.HomePage-menulink{
+    position: relative;
+    font-family: fantasy;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(172, 0, 0);
+    padding: 10px 75px 10px 75px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.HomePage-boxwrapper{
+    min-height: 665px;
+    width: auto;
+    text-align: center;
+    background-image: url("./Images/choppingboard.jpeg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.HomePage-boxcontainer{
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    vertical-align:top;
+    font-size: 14px;
+    width: 600px;
+    height: 450px;
+    padding-left: 10px;
+    border: 1px solid rgb(172, 0, 0);
+    background-color: white;
+    margin: 100px 10px 50px 10px;
+}
+.HomePage-boximage{
+    position: relative;
+    float: right;
+    height: 450px;
+    width: 300px;
+    object-fit: cover;
+    margin-left: 10px;
+    border-left: 1px solid rgb(172, 0, 0);
+}
+.HomePage-boxtitle{
+    text-align: center;
+    color: rgb(172, 0, 0);
+}
+.HomePage-aboutlink{
+    position: relative;
+    display: inline-block;
+    font-family: fantasy;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: rgb(172, 0, 0);
+    padding: 10px 75px 10px 75px;
+    margin: 100px 0px 0px 35px;
+    bottom: 0;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.HomePage-locationlink{
+    position: relative;
+    display: inline-block;
+    font-family: fantasy;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: rgb(172, 0, 0);
+    padding: 10px 75px 10px 75px;
+    margin: 165px 0px 0px 35px;
+    bottom: 0;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.HomePage-clip{
+    position: relative;
+    display: block;
+    top: 15px;
+    width: 150px;
+    transform: rotate(10deg);
+    margin: auto;
+    filter: invert(1);
+    z-index: 1;
+}
+.HomePage-food{
+    display: block;
+    height: 540px;
+    width: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+    padding: 0px;
+}
+.HomePage-foodbackground{
+    text-align: center;
+    min-height: 540px;
+    width: auto;
+    background-image: url("./Images/homeback2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .MenuPage-heroimage {
-    margin-top: -310px;
-    background-image: url("./Images/shrimp.jpeg");
-    background-position: center;
+    margin-top: 90px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./Images/crawtable2.jpeg");
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -133,12 +326,18 @@
 .MenuPage-herotitle {
     position: relative;
     text-align: center;
-    font-family: arial;
+    font-family: fantasy;
     font-size: 65px;
     color: white;
     padding: 150px;
-    top: 50px;
     margin-bottom:0;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.MenuPage-menuimg {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 100%;
 }
 .MenuPage-background {
     position: relative;
@@ -200,10 +399,11 @@
     float: left;
     clear:both;
 }
+
 .AboutPage-heroimage {
-    margin-top: -310px;
-    background-image: url("./Images/oceanbackground.jpeg");
-    background-position: center;
+    margin-top: 90px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./Images/seafood.jpeg");
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -211,105 +411,52 @@
 .AboutPage-herotitle {
     position: relative;
     text-align: center;
-    font-family: arial;
+    font-family: fantasy;
     font-size: 65px;
     color: white;
     padding: 150px;
-    top: 50px;
     margin-bottom:0;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-.AboutPage-background {
+.AboutPage-title{
     text-align: center;
-    background-image: url("./Images/seafood.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding-top: 80px;
+    font-size: 50px;
+    font-family: fantasy;
+    color:rgb(172, 0, 0);
+    margin: 50px 0px 50px 0px;
 }
-
-.AboutPage-picturelefttop {
-    display:block;
-    position: relative;
-    top: 20px;
-    height: 200px;
-    width: 200px;
-    object-fit: cover;
-    background-color: white;
-    padding: 20px;
-    border: solid darkred 5px;
-    margin-left: 15%;
-    transform: rotate(5deg);
-}
-.AboutPage-pictureleftbot {
-    display:block;
-    position: relative;
-    bottom: 20px;
-    height: 200px;
-    width: 200px;
-    object-fit: cover;
-    background-color: white;
-    padding: 20px;
-    border: solid darkred 5px;
-    margin-left: 25%;
-    transform: rotate(-10deg);
-}
-.AboutPage-picturerighttop {
-    display:block;
-    position: relative;
-    top: 20px;
-    height: 200px;
-    width: 200px;
-    object-fit: cover;
-    background-color: white;
-    padding: 20px;
-    border: solid darkred 5px;
-    margin: 0 15% 0 auto;
-    transform: rotate(-5deg);
-}
-.AboutPage-picturerightbot {
-    display:block;
-    position: relative;
-    bottom: 20px;
-    height: 200px;
-    width: 200px;
-    object-fit: cover;
-    background-color: white;
-    padding: 20px;
-    border: solid darkred 5px;
-    margin: 0 25% 0 auto;
-    transform: rotate(10deg);
-}
-.AboutPage-textleft {
+.AboutPage-text {
     display: block;
-    text-align: center;
+    text-align: left;
     font-family: Arial;
     font-size: 20px;
-    color: gray;
-    background-color: white;
-    padding: 40px;
-    border: solid darkred 5px;
-    width: 30%;
-    margin-left: 10%;
-    margin-top: 0;
-    margin-bottom: 0;
+    width: 70%;
+    margin: auto;
 }
-.AboutPage-textright {
-    display: block;
-    text-align: center;
-    font-family: Arial;
-    font-size: 20px;
-    color: gray;
-    background-color: white;
-    padding: 40px;
-    border: solid darkred 5px;
-    width: 30%;
-    margin: 0 10% 0 auto;
+.AboutPage-pictureleft {
+    display:block;
+    position: relative;
+    height: 350px;
+    width: 500px;
+    object-fit: cover;
+    float: left;
+    border: solid darkred 2px;
+    margin: 0px 20px 20px 15%;
+}
+.AboutPage-pictureright {
+    display:block;
+    position: relative;
+    height: 250px;
+    width: 400px;
+    object-fit: cover;
+    float: right;
+    border: solid darkred 2px;
+    margin: 20px 15% 20px 20px;
 }
 
 .LocationPage-heroimage {
-    margin-top: -310px;
-    background-image: url("./Images/restaurant.jpeg");
+    margin-top: 90px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./Images/diningtable.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -318,27 +465,62 @@
 .LocationPage-herotitle {
     position: relative;
     text-align: center;
-    font-family: arial;
+    font-family: fantasy;
     font-size: 65px;
     color: white;
     padding: 150px;
-    top: 50px;
     margin-bottom:0;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .LocationPage-container {
     position: relative;
     top: 60px;
-    width: 70%;
+    width: 80%;
     margin: auto;
     clear: both;
 }
+@media (max-width: 1250px) {
+    .LocationPage-container {
+        width: 90%;
+    }
+}
 .LocationPage-googlemapscontainer {
+    position: relative;
     height: 320px;
     width: 600px;
+    bottom: 180px;
     float: right;
 }
+@media (max-width: 1150px) {
+    .LocationPage-googlemapscontainer {
+        height: 320px;
+        width: 500px;
+    }
+}
+@media (max-width: 1000px) {
+    .LocationPage-googlemapscontainer {
+        height: 320px;
+        width: 400px;
+    }
+}
+@media (max-width: 900px) {
+    .LocationPage-googlemapscontainer {
+        height: 320px;
+        width: 600px;
+        bottom: 0px;
+        float: none;
+    }
+}
+@media (max-width: 650px) {
+    .LocationPage-googlemapscontainer {
+        height: 320px;
+        width: 400px;
+        bottom: 0px;
+        float: none;
+    }
+}
 .LocationPage-title{
-    font-family: double;
+    font-family: arial;
     color: darkred;
 }
 .LocationPage-texttitle{

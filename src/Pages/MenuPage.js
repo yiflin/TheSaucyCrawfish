@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Menu from '../Images/menu.jpeg'
+import Homemenu from '../Images/homemenu.png'
 import Pepper from '../Images/pepperwing.jpg'
 import Wings from '../Images/lemonwing.jpg';
 import Table from '../Images/table.jpg';
@@ -15,7 +17,8 @@ class MenuPage extends Component {
                 <div className="MenuPage-heroimage">
                     <h1 className="MenuPage-herotitle">Menu</h1>
                 </div>
-                <div className="MenuPage-background">
+                <img className="MenuPage-menuimg" src={Homemenu} alt="menu"/>
+                {/*<div className="MenuPage-background">
                     <div className="MenuPage-component">
                         <h1 className="MenuPage-title">Today's Catch</h1>
                         <MenuMain/>
@@ -32,7 +35,7 @@ class MenuPage extends Component {
                         <MenuExtra/>
                         
                     </div>
-                </div>
+                </div>*/}
             </div>
         );
     };
